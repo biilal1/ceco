@@ -17,7 +17,7 @@ BOT_TOKEN = getenv("BOT_TOKEN", "")
 
 Muntazer = getenv("muntazer", "")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://veez:mega@cluster0.heqnd.mongodb.net/veez?retryWrites=true&w=majority")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 2097152))
 
