@@ -68,7 +68,8 @@ async def mmmezat(client, message):
                 [
                     InlineKeyboardButton(
                         "{مــطور الـسورس2}", url=f"https://t.me/N_7_K"),
-                        
+                [
+                    
                  ],[
                 InlineKeyboardButton(
                         "close", callback_data="close"),
