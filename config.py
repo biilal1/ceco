@@ -25,9 +25,9 @@ SONG_DOWNLOAD_DURATION = int(
     getenv("SONG_DOWNLOAD_DURATION_LIMIT", "20971520")
 )
 
-LOGGER_ID = int(getenv("LOGGER_ID", "6640042447"))
+LOGGER_ID = int(getenv("LOGGER_ID", "1213559434"))
 
-OWNER_ID = int(getenv("OWNER_ID", "6640042447"))
+OWNER_ID = int(getenv("OWNER_ID", "1213559434"))
 
 BOT_USERNAME = getenv("BOT_USERNAME" , "6640042447")
 
@@ -47,7 +47,7 @@ GIT_TOKEN = getenv(
 )  # Fill this variable if your upstream repository is private
 
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/vzo_a")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/motro132")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/N_M_7_U")
 
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
 AUTO_SUGGESTION_MODE = getenv("AUTO_SUGGESTION_MODE", "True")
