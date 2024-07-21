@@ -62,15 +62,21 @@ async def mmmezat(client, message):
 [𝑊𝑂𝑅𝐿𝐷 𝑺𝑂𝑈𝑅𝐶𝐸](https://t.me/vzo_a) """,
         reply_markup=InlineKeyboardMarkup(
             [
+               reply_markup=InlineKeyboardMarkup(
+            [
                 [
                     InlineKeyboardButton(
                         "{مــطور الـسورس}", url=f"https://t.me/nor_o"),
-                [
-                    InlineKeyboardButton(
-                        "{مــطور الـسورس2}", url=f"https://t.me/N_7_K"),
-                [
                     
                  ],[
+                  
+                   reply_markup=InlineKeyboardMarkup(
+            [
+                [
+                    InlineKeyboardButton(
+                        "{مــطور الـسورس}", url=f"https://t.me/nor_o"),                        
+                 ],[
+                  
                 InlineKeyboardButton(
                         "close", callback_data="close"),
                ],
